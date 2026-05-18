@@ -1,6 +1,6 @@
 # Arquitetura de Banco de Dados: Sistema de Varejo
 
-### Ojetivo do projeto
+### Objetivo do projeto
 
 Modelagem e implementação de um banco de dados relacional em MySQL para um ambiente de supermercado. </br>
 O foco desta arquitetura é garantir a integridade, possibilitar a auditoria de vendas por colaborador e fornecer dados estruturados para ações de marketing com foco na fidelização de clientes.
