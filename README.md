@@ -18,7 +18,7 @@ O sistema foi desenhado para espelhar a operação real do varejo, contendo as s
 - **Produtos & Estoque:** O que está sendo transacionado.
 - **Vendas:** O evento que conecta o Cliente, o Produto e o Colaborador.
 <div align="center">
-  <img src="BRMODELO.png" width="50%">
+  <img src="BRMODELO.png" width="100%">
 </div>
 
 ### 2. Modelo Lógico
@@ -29,7 +29,7 @@ As regras de conexão aplicadas para garantir a integridade dos dados:
 - Relacionamento **1:N** entre Cliente e Vendas e o Item da Venda (Garantindo histórico de compras).
 - Tabela de **item_venda** (Relacionamento N:N entre Vendas e Produtos), contendo o "valor_venda" estático, garantindo o **congelamento de preço** histórico mesmo que o valor do produto mude na tabela principal.
 <div align="center">
-  <img src="ERR.png" width="50%">
+  <img src="ERR.png" width="100%">
 </div>
 
 ### 3. Modelo Físico
@@ -37,7 +37,7 @@ As regras de conexão aplicadas para garantir a integridade dos dados:
 - **SGBD:** MySQL
 - **Arquivo:** O script completo de criação de tabelas (`CREATE TABLE`), e chaves estrangeiras (`FOREIGN KEY`) está disponível no arquivo `database_supermercado.sql` neste repositório.
 <div align="center">
-  <img src="FINAL.png" width="50%">
+  <img src="FINAL.png" width="100%">
 </div>
 
 ---
